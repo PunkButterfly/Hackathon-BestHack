@@ -52,9 +52,9 @@ fold_rs/1~fNV9N0ZBqtHVmAKi1gz0KEhtOIiZzRC?usp=shari/g).
 К сожалению мы ошиблись, когда решили использовать некую ~~ф**гню~~ эвристику, вместо методов кластеризации. Данный подход на private выборке дал качество всего 0,67, поэтому мы не прошли в финал. Но задание было очень увлекательным и веселым :)
 
 ## Навигация по файлам
-* data_analys[BestHack22].ipynb - ноутбук с исследованием данных и моделей(все подробно описано).
-* predict[Best_Hack22].ipynb - ноутбук для предикта.
-	Чтобы запустить, нужно удалить первую ячейку(она для подключения к гугл диску), и поменять путь до файлов в третьей ячейке.
+* [data_analys[BestHack22].ipynb](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/data_analys%5BBestHack22%5D.ipynb) - ноутбук с исследованием данных и моделей (все подробно описано).
+* [predict[Best_Hack22].ipynb](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/predict%5BBest_Hack22%5D.ipynb) - ноутбук для предикта.
+> Чтобы запустить, нужно удалить первую ячейку(она для подключения к гугл диску), и поменять путь до файлов в третьей ячейке.
 	Результатом работы программы будет файл Result.csv.
-* Result.csv - файл с предиктами для Test_unlabled
-* BEST HACK 2022.pdf - презентация нашего решения
+* [Result.csv](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/Result.csv) - файл с предиктами для Test_unlabled
+* [BEST HACK 2022.pdf](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/BEST%20HACK%202022.pdf) - презентация нашего решения
