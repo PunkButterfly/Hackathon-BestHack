@@ -1,6 +1,6 @@
 # Хакатон BestHack 2022
 
-В этом репозитории вся исследовательская работа, которую мы провели в рамках хакатона BestHack 2022 от МГТУ в составе команды **punk_butterfly**.
+В этом репозитории описана вся исследовательская работа, которую мы провели в рамках хакатона BestHack 2022 от МГТУ в составе команды **punk_butterfly**.
 
 ## Задание от команды BestHack
 
@@ -13,7 +13,7 @@
 пациентов, больных раком. Необходимо классифицировать на основе этих
 данных – пациент жив или погиб. 
 
-Для этого задания заранее подготовлен [__baseline__](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Baseline.ipynb) с точностью 50%.
+Для этого задания заранее подготовлен [baseline](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Baseline.ipynb) с точностью 50%.
 
 ### Сложности, с которыми предстоит столкнуться
 
@@ -26,21 +26,21 @@
 
 ### Данные к задаче:
 
-* [Датасет](https://docs.google.com/spreadsheets/d/1VwH563kjcQmE3mYbplnnrnKcSY7xyLA7/edit?usp=sharing&ouid=112656509446736153199&rtpof=true&sd=true) с размеченными таргетами, состоящий из 259 записей (пациентов).
+* [Датасет](https://docs.google.com/spreadsheets/d/1VwH563kjcQmE3mYbplnnrnKcSY7xyLA7/edit?usp=sharing&ouid=112656509446736153199&rtpof=true&sd=true) с размеченными таргетами, состоящий из 259 записей (пациентов);
 * [Датасет](https://docs.google.com/spreadsheets/d/1wAWWCQr5AvIpSkBbUAghzZiZI8RCidlI/edit?usp=sharing&ouid=112656509446736153199&rtpof=true&sd=true) из 112 записей, которые необходимо предсказать.
 
 > Качество модели будет оцениваться по метрике __balanced accuracy__.
 
 ## Наши результаты
 
-Последовательность наших действий подробно описана в файле с решением. К сожалению, мы ошиблись, когда решили использовать некую ~~ф**гню~~ эвристику, вместо методов кластеризации. Данный подход на private выборке дал качество всего 0,67, из-за чего мы не прошли в финал. Но задание было очень увлекательным и веселым :)
+Последовательность наших действий подробно описана в итоговом [ноутбуке](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Data_analysis.ipynb), состоящем из выбранных нами лучших подходов. К сожалению, мы ошиблись, когда решили использовать некую ~~ф??гню~~ эвристику, вместо методов кластеризации. Данный подход на private выборке дал качество всего 0,67, из-за чего мы не прошли в финал. Но задание было очень увлекательным и веселым :)
 
 ## Навигация по файлам
-
-* [data_analys[BestHack22].ipynb](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/data_analys%5BBestHack22%5D.ipynb) - ноутбук с исследованием данных и моделей (все подробно описано).
-* [predict[Best_Hack22].ipynb](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/predict%5BBest_Hack22%5D.ipynb) - ноутбук для предикта.
-> Чтобы запустить, нужно удалить первую ячейку(она для подключения к гугл диску), и поменять путь до файлов в третьей ячейке.
-
-Результатом работы программы будет файл Result.csv.
-* [Result.csv](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/Result.csv) - файл с предиктами для Test_unlabled
-* [BEST HACK 2022.pdf](https://github.com/IlyaKuprik/PunkButterflyHacks/blob/master/BEST_HACK/BEST%20HACK%202022.pdf) - презентация нашего решения
+* [Задание](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.pdf) - формулировка задачи от организаторов хакатона;
+* [Data_analysis](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Data_analysis.ipynb) - ноутбук с исследованием данных и используемых моделей (все подробно описано);
+* [Prediction](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Prediction.ipynb) - ноутбук для предикта;
+> Чтобы запустить, нужно удалить первую ячейку (она для подключения к гугл диску), и поменять путь до файлов в третьей ячейке.
+Результатом работы программы будет файл __Result.csv__.
+* [Result.csv](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Result.csv) - файл с предиктами для Test_unlabled;
+* [Презентация решения](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F.pdf) - краткое описание проделанной работы;
+* [Baseline](https://github.com/PunkButterfly/Hackathon-BestHack/blob/master/Baseline.ipynb) - решение, предложенное организаторами.
